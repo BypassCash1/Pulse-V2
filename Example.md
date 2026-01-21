@@ -6,12 +6,7 @@ Complete documentation for Pulse UI V1, a lightweight Roblox UI library.
 
 ### Method 1: Loadstring (Recommended)
 ```lua
-local PulseUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/pulse-ui/main/ui.lua"))()
-```
-
-### Method 2: Local Require
-```lua
-local PulseUI = require(script.Parent.ui)
+local PulseUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/BypassCash1/Pulse-V2/refs/heads/main/UI.lua"))()
 ```
 
 ---
@@ -231,7 +226,7 @@ Window:DeleteConfig("myconfig")
 
 ```lua
 -- Load library
-local PulseUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/pulse-ui/main/ui.lua"))()
+local PulseUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/BypassCash1/Pulse-V2/refs/heads/main/UI.lua"))()
 
 -- Create window
 local Window = PulseUI:CreateWindow({
